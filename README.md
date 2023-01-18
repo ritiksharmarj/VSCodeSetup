@@ -6,6 +6,8 @@ Here is a quick list of everything you need in order to set up VS Code.
 
 I use the `One Monokai` theme. This is a free theme, similar to my personal favourite Monokai Pro. [Link &rarr;](https://marketplace.visualstudio.com/items?itemName=azemoh.one-monokai)
 
+`Monokai Pro` theme [Link &rarr;](https://marketplace.visualstudio.com/items?itemName=monokai.theme-monokai-pro-vscode)
+
 ### Extensions
 
 `Auto Rename Tag` to automatically update matching HTML tags. [Link &rarr;](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
