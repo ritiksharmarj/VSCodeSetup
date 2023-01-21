@@ -28,34 +28,35 @@ I use the `One Monokai` theme. This is a free theme, similar to my personal favo
 
 ```javascript
 {
-  "workbench.startupEditor": "none",
-  "editor.mouseWheelZoom": true,
-  "[html]": {
-    "editor.defaultFormatter": "vscode.html-language-features"
-  },
-  "editor.wordWrap": "on",
-  "editor.formatOnSave": true,
-  "[javascript]": {
-    "editor.defaultFormatter": "esbenp.prettier-vscode"
-  },
-  "editor.defaultFormatter": "esbenp.prettier-vscode",
-  "git.autofetch": true,
-  "emmet.includeLanguages": {
-    "javascript": "javascriptreact"
-  },
-  "editor.fontSize": 15,
-  "workbench.colorTheme": "Monokai Pro",
-  "workbench.iconTheme": "material-icon-theme",
-  "editor.fontFamily": "'JetBrains Mono', Menlo, Monaco, 'Courier New', monospace",
-  "editor.fontLigatures": true,
-  "workbench.activityBar.visible": true,
-  "editor.renderWhitespace": "none",
-  "files.autoSave": "afterDelay",
-  "editor.tabSize": 2,
-  "editor.minimap.enabled": false,
-  "prettier.jsxSingleQuote": true,
-  "prettier.singleQuote": true,
-  "editor.stickyScroll.enabled": true,
-  "editor.lineHeight": 1.7
+   "workbench.startupEditor": "none",
+   "editor.mouseWheelZoom": true,
+   "[html]": {
+      "editor.defaultFormatter": "vscode.html-language-features"
+   },
+   "editor.wordWrap": "on",
+   "editor.formatOnSave": true,
+   "[javascript]": {
+      "editor.defaultFormatter": "esbenp.prettier-vscode"
+   },
+   "editor.defaultFormatter": "esbenp.prettier-vscode",
+   "git.autofetch": true,
+   "emmet.includeLanguages": {
+      "javascript": "javascriptreact"
+   },
+   "editor.fontSize": 15,
+   "workbench.iconTheme": "material-icon-theme",
+   "editor.fontFamily": "'JetBrains Mono', Menlo, Monaco, 'Courier New', monospace",
+   "editor.fontLigatures": true,
+   "workbench.activityBar.visible": true,
+   "editor.renderWhitespace": "none",
+   "files.autoSave": "afterDelay",
+   "editor.tabSize": 2,
+   "prettier.jsxSingleQuote": true,
+   "prettier.singleQuote": true,
+   "editor.stickyScroll.enabled": true,
+   "editor.lineHeight": 1.7,
+   "prettier.tabWidth": 3,
+   "editor.guides.bracketPairs": "active",
+   "workbench.colorTheme": "One Monokai"
 }
 ```
