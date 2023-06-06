@@ -28,35 +28,43 @@ I use the `One Monokai` theme. This is a free theme, similar to my personal favo
 
 ```javascript
 {
-   "workbench.startupEditor": "none",
-   "editor.mouseWheelZoom": true,
-   "[html]": {
-      "editor.defaultFormatter": "vscode.html-language-features"
-   },
-   "editor.wordWrap": "on",
-   "editor.formatOnSave": true,
-   "[javascript]": {
-      "editor.defaultFormatter": "esbenp.prettier-vscode"
-   },
-   "editor.defaultFormatter": "esbenp.prettier-vscode",
-   "git.autofetch": true,
-   "emmet.includeLanguages": {
-      "javascript": "javascriptreact"
-   },
-   "editor.fontSize": 15,
-   "workbench.iconTheme": "material-icon-theme",
-   "editor.fontFamily": "'JetBrains Mono', Menlo, Monaco, 'Courier New', monospace",
-   "editor.fontLigatures": true,
-   "workbench.activityBar.visible": true,
-   "editor.renderWhitespace": "none",
-   "files.autoSave": "afterDelay",
-   "editor.tabSize": 2,
-   "prettier.jsxSingleQuote": true,
-   "prettier.singleQuote": true,
-   "editor.stickyScroll.enabled": true,
-   "editor.lineHeight": 1.7,
-   "prettier.tabWidth": 3,
-   "editor.guides.bracketPairs": "active",
-   "workbench.colorTheme": "One Monokai"
+  "editor.mouseWheelZoom": true,
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "editor.wordWrap": "on",
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "git.autofetch": true,
+  "emmet.includeLanguages": {
+    "javascript": "javascriptreact"
+  },
+  "editor.fontSize": 13,
+  "workbench.iconTheme": "material-icon-theme",
+  "editor.fontFamily": "'JetBrains Mono', 'Cascadia Code', 'Fira Code', 'Courier New', monospace",
+  // "editor.fontFamily": "Consolas, 'JetBrains Mono', 'Courier New', monospace",
+  "editor.fontWeight": "normal",
+  "editor.fontLigatures": true,
+  "workbench.activityBar.visible": true,
+  "editor.renderWhitespace": "none",
+  "editor.tabSize": 2,
+  "prettier.jsxSingleQuote": true,
+  "prettier.singleQuote": true,
+  "editor.stickyScroll.enabled": true,
+  "editor.lineHeight": 1.8,
+  "prettier.tabWidth": 2,
+  "editor.guides.bracketPairs": "active",
+  "workbench.colorTheme": "Monokai Pro",
+  "files.autoSave": "onFocusChange",
+  "workbench.startupEditor": "none",
+  "rapidapi.terminalLink.enabled": false,
+  "window.zoomLevel": 1,
+  "editor.unicodeHighlight.allowedLocales": {
+    "es": true
+  },
+  "terminal.integrated.defaultProfile.windows": "Git Bash"
 }
 ```
