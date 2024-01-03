@@ -45,11 +45,8 @@ I use the `One Monokai` theme. This is a free theme, similar to my personal favo
   "editor.fontSize": 13,
   "workbench.iconTheme": "material-icon-theme",
   "editor.fontFamily": "'JetBrains Mono', 'Cascadia Code', 'Fira Code', 'Courier New', monospace",
-  // "editor.fontFamily": "Consolas, 'JetBrains Mono', 'Courier New', monospace",
   "editor.fontWeight": "normal",
   "editor.fontLigatures": true,
-  "workbench.activityBar.visible": true,
-  "editor.renderWhitespace": "none",
   "editor.tabSize": 2,
   "prettier.jsxSingleQuote": true,
   "prettier.singleQuote": true,
@@ -61,10 +58,19 @@ I use the `One Monokai` theme. This is a free theme, similar to my personal favo
   "files.autoSave": "onFocusChange",
   "workbench.startupEditor": "none",
   "rapidapi.terminalLink.enabled": false,
-  "window.zoomLevel": 1,
   "editor.unicodeHighlight.allowedLocales": {
     "es": true
   },
-  "terminal.integrated.defaultProfile.windows": "Git Bash"
+  "terminal.integrated.defaultProfile.windows": "Git Bash",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "extensions.ignoreRecommendations": true,
+  "terminal.integrated.fontSize": 15,
+  "editor.linkedEditing": true,
+  "update.showReleaseNotes": false,
+  "window.zoomLevel": 1,
+  "editor.accessibilitySupport": "off",
+  "[prisma]": {
+    "editor.defaultFormatter": "Prisma.prisma"
+  }
 }
 ```
