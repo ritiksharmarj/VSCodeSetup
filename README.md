@@ -1,10 +1,10 @@
 # VS Code setup
 
-Here is a quick list of everything you need in order to set up VS Code.
+Here is a quick list of everything you need to set up VS Code.
 
 ## Theme
 
-I use the `One Monokai` theme. This is a free theme, similar to my personal favourite Monokai Pro. [Link &rarr;](https://marketplace.visualstudio.com/items?itemName=azemoh.one-monokai)
+I use the `One Monokai` theme. This is a free theme, similar to my personal favorite Monokai Pro. [Link &rarr;](https://marketplace.visualstudio.com/items?itemName=azemoh.one-monokai)
 
 `Monokai Pro` theme [Link &rarr;](https://marketplace.visualstudio.com/items?itemName=monokai.theme-monokai-pro-vscode)
 
@@ -23,6 +23,16 @@ I use the `One Monokai` theme. This is a free theme, similar to my personal favo
 `Path Intellisense` to autocompletes filenames. [Link &rarr;](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
 
 `Prettier` to format code. [Link &rarr;](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+
+`Error Lens` - [Link &rarr;](https://marketplace.visualstudio.com/items?itemName=usernamehw.errorlens)
+
+`ESLint` - [Link &rarr;](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+
+`Image preview` - [Link &rarr;](https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-gutter-preview)
+
+`npm Intellisense` - [Link &rarr;](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense)
+
+`Tailwind CSS IntelliSense` - [Link &rarr;](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
 
 ### Settings
 
@@ -45,6 +55,7 @@ I use the `One Monokai` theme. This is a free theme, similar to my personal favo
   "editor.fontSize": 13,
   "workbench.iconTheme": "material-icon-theme",
   "editor.fontFamily": "'JetBrains Mono', 'Cascadia Code', 'Fira Code', 'Courier New', monospace",
+  // "editor.fontFamily": "Consolas, 'JetBrains Mono', 'Courier New', monospace",
   "editor.fontWeight": "normal",
   "editor.fontLigatures": true,
   "editor.tabSize": 2,
@@ -64,13 +75,17 @@ I use the `One Monokai` theme. This is a free theme, similar to my personal favo
   "terminal.integrated.defaultProfile.windows": "Git Bash",
   "javascript.updateImportsOnFileMove.enabled": "always",
   "extensions.ignoreRecommendations": true,
-  "terminal.integrated.fontSize": 15,
+  "terminal.integrated.fontSize": 13,
   "editor.linkedEditing": true,
   "update.showReleaseNotes": false,
-  "window.zoomLevel": 1,
   "editor.accessibilitySupport": "off",
   "[prisma]": {
     "editor.defaultFormatter": "Prisma.prisma"
-  }
+  },
+  "liveServer.settings.donotShowInfoMsg": true,
+  "window.zoomLevel": 1,
+  "terminal.integrated.copyOnSelection": true,
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.cursorStyle": "line"
 }
 ```
