@@ -52,10 +52,9 @@ I use the `One Monokai` theme. This is a free theme, similar to my personal favo
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   },
-  "editor.fontSize": 13,
+  "editor.fontSize": 12,
   "workbench.iconTheme": "material-icon-theme",
   "editor.fontFamily": "'JetBrains Mono', 'Cascadia Code', 'Fira Code', 'Courier New', monospace",
-  // "editor.fontFamily": "Consolas, 'JetBrains Mono', 'Courier New', monospace",
   "editor.fontWeight": "normal",
   "editor.fontLigatures": true,
   "editor.tabSize": 2,
@@ -68,7 +67,6 @@ I use the `One Monokai` theme. This is a free theme, similar to my personal favo
   "workbench.colorTheme": "Monokai Pro",
   "files.autoSave": "onFocusChange",
   "workbench.startupEditor": "none",
-  "rapidapi.terminalLink.enabled": false,
   "editor.unicodeHighlight.allowedLocales": {
     "es": true
   },
@@ -82,10 +80,14 @@ I use the `One Monokai` theme. This is a free theme, similar to my personal favo
   "[prisma]": {
     "editor.defaultFormatter": "Prisma.prisma"
   },
-  "liveServer.settings.donotShowInfoMsg": true,
   "window.zoomLevel": 1,
   "terminal.integrated.copyOnSelection": true,
   "terminal.integrated.cursorBlinking": true,
-  "terminal.integrated.cursorStyle": "line"
+  "terminal.integrated.cursorStyle": "line",
+  "github.copilot.advanced": {},
+  "github.copilot.editor.enableAutoCompletions": false,
+  "git.confirmSync": false,
+  "typescript.updateImportsOnFileMove.enabled": "never",
+  "editor.cursorBlinking": "smooth"
 }
 ```
