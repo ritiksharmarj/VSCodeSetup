@@ -4,8 +4,6 @@ Here is a quick list of everything you need to set up VS Code.
 
 ## Theme
 
-I use the `One Monokai` theme. This is a free theme, similar to my personal favorite Monokai Pro. [Link &rarr;](https://marketplace.visualstudio.com/items?itemName=azemoh.one-monokai)
-
 `Monokai Pro` theme [Link &rarr;](https://marketplace.visualstudio.com/items?itemName=monokai.theme-monokai-pro-vscode)
 
 ### Extensions
@@ -33,6 +31,10 @@ I use the `One Monokai` theme. This is a free theme, similar to my personal favo
 `npm Intellisense` - [Link &rarr;](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense)
 
 `Tailwind CSS IntelliSense` - [Link &rarr;](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
+
+`Pretty TS Errors` - [Link&rarr;](https://marketplace.visualstudio.com/items?itemName=yoavbls.pretty-ts-errors)
+
+`SVG` - [Link&rarr;](https://marketplace.visualstudio.com/items?itemName=jock.svg)
 
 ### Settings
 
@@ -84,10 +86,13 @@ I use the `One Monokai` theme. This is a free theme, similar to my personal favo
   "terminal.integrated.copyOnSelection": true,
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.cursorStyle": "line",
-  "github.copilot.advanced": {},
-  "github.copilot.editor.enableAutoCompletions": false,
   "git.confirmSync": false,
   "typescript.updateImportsOnFileMove.enabled": "never",
-  "editor.cursorBlinking": "smooth"
+  "editor.cursorBlinking": "smooth",
+  "editor.minimap.enabled": true,
+  "[markdown]": {
+    "diffEditor.ignoreTrimWhitespace": true
+  },
+  "diffEditor.hideUnchangedRegions.enabled": true
 }
 ```
