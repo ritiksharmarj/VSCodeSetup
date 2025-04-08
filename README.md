@@ -10,12 +10,6 @@ Here is a quick list of everything you need to set up VS Code.
 
 `Auto Rename Tag` to automatically update matching HTML tags. [Link &rarr;](https://marketplace.visualstudio.com/items?itemName=formulahendry.auto-rename-tag)
 
-`Color Highlight` to highlight colors in CSS code. [Link &rarr;](https://marketplace.visualstudio.com/items?itemName=naumovs.color-highlight)
-
-`ES7+ React/Redux/React-Native snippets` to advance development for React/Redux code. [Link &rarr;](https://marketplace.visualstudio.com/items?itemName=dsznajder.es7-react-js-snippets)
-
-`Live Server` to create a live preview for the current project. [Link &rarr;](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer)
-
 `Material Icon` to show code icons. [Link &rarr;](https://marketplace.visualstudio.com/items?itemName=PKief.material-icon-theme)
 
 `Path Intellisense` to autocompletes filenames. [Link &rarr;](https://marketplace.visualstudio.com/items?itemName=christian-kohler.path-intellisense)
@@ -26,15 +20,8 @@ Here is a quick list of everything you need to set up VS Code.
 
 `ESLint` - [Link &rarr;](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
 
-`Image preview` - [Link &rarr;](https://marketplace.visualstudio.com/items?itemName=kisstkondoros.vscode-gutter-preview)
-
-`npm Intellisense` - [Link &rarr;](https://marketplace.visualstudio.com/items?itemName=christian-kohler.npm-intellisense)
-
 `Tailwind CSS IntelliSense` - [Link &rarr;](https://marketplace.visualstudio.com/items?itemName=bradlc.vscode-tailwindcss)
 
-`Pretty TS Errors` - [Link&rarr;](https://marketplace.visualstudio.com/items?itemName=yoavbls.pretty-ts-errors)
-
-`SVG` - [Link&rarr;](https://marketplace.visualstudio.com/items?itemName=jock.svg)
 
 ### Settings
 
@@ -54,19 +41,17 @@ Here is a quick list of everything you need to set up VS Code.
   "emmet.includeLanguages": {
     "javascript": "javascriptreact"
   },
-  "editor.fontSize": 12,
-  "workbench.iconTheme": "material-icon-theme",
-  "editor.fontFamily": "'JetBrains Mono', 'Cascadia Code', 'Fira Code', 'Courier New', monospace",
+  "editor.fontSize": 13,
+  "editor.fontFamily": "'JetBrains Mono', monospace",
   "editor.fontWeight": "normal",
   "editor.fontLigatures": true,
   "editor.tabSize": 2,
-  "prettier.jsxSingleQuote": true,
-  "prettier.singleQuote": true,
+  "prettier.jsxSingleQuote": false,
+  "prettier.singleQuote": false,
   "editor.stickyScroll.enabled": true,
   "editor.lineHeight": 1.8,
   "prettier.tabWidth": 2,
   "editor.guides.bracketPairs": "active",
-  "workbench.colorTheme": "Monokai Pro",
   "files.autoSave": "onFocusChange",
   "workbench.startupEditor": "none",
   "editor.unicodeHighlight.allowedLocales": {
@@ -79,20 +64,21 @@ Here is a quick list of everything you need to set up VS Code.
   "editor.linkedEditing": true,
   "update.showReleaseNotes": false,
   "editor.accessibilitySupport": "off",
-  "[prisma]": {
-    "editor.defaultFormatter": "Prisma.prisma"
-  },
-  "window.zoomLevel": 1,
   "terminal.integrated.copyOnSelection": true,
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.cursorStyle": "line",
   "git.confirmSync": false,
   "typescript.updateImportsOnFileMove.enabled": "never",
   "editor.cursorBlinking": "smooth",
-  "editor.minimap.enabled": true,
-  "[markdown]": {
-    "diffEditor.ignoreTrimWhitespace": true
+  "github.copilot.editor.enableAutoCompletions": false,
+  "window.zoomLevel": 0.5,
+  "workbench.iconTheme": "material-icon-theme",
+  "extensions.autoUpdate": false,
+  "diffEditor.hideUnchangedRegions.enabled": true,
+  "workbench.colorTheme": "Monokai Pro",
+  "files.associations": {
+    "*.css": "tailwindcss"
   },
-  "diffEditor.hideUnchangedRegions.enabled": true
+  "terminal.integrated.suggest.enabled": true
 }
 ```
